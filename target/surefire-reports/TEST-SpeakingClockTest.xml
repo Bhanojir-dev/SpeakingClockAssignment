@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="19" failures="0" name="SpeakingClockTest" time="0.031" errors="0" skipped="0">
+  <properties>
+    <property name="idea.version" value="2021.3.3"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Bhanoji\Assignment"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Bhanoji\Assignment"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.15.1+2-LTS-10"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\GOVARD~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven-event-listener.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.15.1\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:\Users\Govardhan\Downloads\WINDOWS.X64_193000_db_home\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\Micro Focus\LoadRunner\bin\Silk\Silk Performer 21.0;C:\Program Files\Java\jdk-11.0.15.1\bin;C:\Users\Govardhan\Downloads\apache-maven-3.8.5-bin\apache-maven-3.8.5\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Govardhan\AppData\Local\Microsoft\WindowsApps;;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\bin;;."/>
+    <property name="maven.conf" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Govardhan"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="Govardhan"/>
+    <property name="java.class.path" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds-2.6.0.jar;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3\boot\plexus-classworlds.license"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.classworlds.Launcher -Didea.version=2021.3.3 install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.15.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.15.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.3\plugins\maven\lib\maven3"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2022-04-22"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="SpeakingClockTest" name="convertReturnsTimeWithOneDigitLess" time="0.021"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsJustAfterMidnight" time="0.01"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsJustBeforeMidday" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsBlankTime" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsMidnight" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsJustBeforeMidnight" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsBlankMinutes" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsInvalidHours" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsHoursLessRange" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsBlankHours" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsJustAfterMidday" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsHoursMoreThanRange" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsAmTime" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsMidday" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsOnePm" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsInvalidMinutes" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsTimeWithoutSeparator" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsMinutesMoreThanRange" time="0"/>
+  <testcase classname="SpeakingClockTest" name="convertReturnsMinutesLessRange" time="0"/>
+</testsuite>
